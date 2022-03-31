@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel ="stylesheet" href="style-1.css">
+    <link rel ="stylesheet" href="xen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript">
+
+        
+      
+      </script>  
+</head>
+<body>
+  <div class="body">
+     <!--The main container is the overall container-->
+      <div class="main_container">
+        <!---Header and Navigator for small screens-->
+        <header class="nav-S">
+          <div class="hide-on-med-and-up">
+            <div class="header">
+              <div class="container">
+                 <div class="h-content">
+                  <a href="">XENXEI</a>
+                  <div class="mainbox" onclick="openFunction()">&#9776;</div>
+                  <div id="menu" class="sidemenu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">contact</a>
+                    <a href="#">Login</a>
+                    <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>  
+            </div>
+                 </div>
+              </div>    
+            </div>
+              </div>
+        </header>
+        <!----Home-Navbar-Section---->
+        <div class="sub_container"><!--Opening -->
+          <div class="column-1">
+            <section class="hide-on-small-only">
+              <div class="Nav-box">
+                <a href="#home">
+                  <div class="box" id="glass">
+                   <div class="flex">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <p>Home</p>
+                   </div>
+                  </div>
+                </a>
+                <a href="#about">
+                  <div class="box" id="glass">
+                   <div class="flex-1">
+                    <i class="fas fa-user" aria-hidden="true"></i>
+                    <p>About</p>
+                   </div>
+                  </div>
+                </a>
+                <a href="#work">
+                  <div class="box" id="glass">
+                   <div class="flex-1">
+                    <i class="fas fa-briefcase" aria-hidden="true"></i>
+                    <p>My work</p>
+                   </div>
+                  </div>
+                </a>
+                <a href="#contact">
+                  <div class="box" id="glass">
+                   <div class="">
+                    <i class="fas fa-envelope-square" aria-hidden="true"></i>
+                    <p>Contact</p>
+                   </div>
+                  </div>
+                </a>
+              </div>
+            </section>
+          </div>
+          <div class="demo" >
+          <div class="container" id="home">
+            <div class="row">
+              <div class="md-s"><!---- this div is for 768 - 1024 screens only --> 
+                <div class="col s12 m6 l6 push-l6" id="col-1"> 
+                    <!----Starts on small screens--> 
+                    <section class="h-img">          
+                      <div class="image">
+                        <div class="center-img">
+                          <img src="PF1.JPG">
+                        </div>  
+                      </div>
+                    </section>  
+                </div>
+                <div class="col s12 m6 l6 pull-l6" id="col-2"> 
+                    <!---Starts on big screens--->
+                    <article class="texts" style="width: 130%;">
+                      <!---text for small screens-->
+                      <section class="hide-on-med-and-up" id="mobile-devices">
+                        <h1>I'm Wisdom Ikoi</h1>
+                        <Sect class="p">
+                          <p class="p1">Developer + Designer</p>
+                          <p class="p2">I'm a Front-end Web Developer + UI Designer </br> based in Port Harcourt Nigeria</p>
+                        </Sect>
+                      </section>
+
+                      <section class="hide-on-small-only" id="Content-area">
+                       
+                        <h2>I'm </h2><br>
+                        <h3>Wisdom John</h3>
+                       
+                      </section>
+                      <Sect class="hide-on-small-only">
+                        <p class="p1">Developer + Designer</p>
+                        <p class="p2">I'm a Front-end Web Developer + UI Designer </br> based in Port Harcourt Nigeria</p>
+                      </Sect> 
+                         
+                      <section class="hire-btn">
+                        <a href="tel:+234-906-814-0123"><button class="btn waves-effect waves-light" id="button">
+                         Hire Me!!</i>
+                        </button></a>
+                      </section>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--About-->
+          <div id="about">
+            <div class="container">
+              <!--Mobile version-->
+              <div class="hide-on-med-and-up">
+
+                <div id="M-Abt"> 
+                  <h1>My biography</h1>
+                  <span class="article">
+                    <p>
+                    My name is Wisdom John Ikoi, i live in Port Harcourt city Nigeria, I’m a 
+                    design minded Front-End Web Developer. 
+                    i studied computer scinece at ken-serowiwa poly tecnique Nigeria.
+                    I Have been passionate about technology all my life and i love learning new cool stuff.
+                    </p>
+                  </span>
+                    <span id="M-card">
+                      <section class="skillz">
+                        My Skill
+                      </section>
+                          
+                    <div class="card grey darken-4" id="M-card-1"> 
+                      <div class="card-content white-text">
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">Front-End<br></p> 
+                            <p class="style-2">Development</p>
+                          </span>
+                          <span class="per">
+                            <h5>85%</h5>
+                          </span>
+                          
+                        </span>
+                        <hr id="hr"> 
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">UI/UX<br></p> 
+                            <p class="style-2">Development</p>
+                          </span>
+                          <span class="per">
+                            <h5>70%</h5>
+                          </span>
+                        </span>
+                        <hr id="hr">  
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">Content<br></p> 
+                            <p class="style-2">Development</p>
+                          </span>
+                          <span class="per">
+                            <h5>80%</h5>
+                          </span>
+                         
+                        </span>
+                        <hr id="hr">
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">Back-End<br></p> 
+                            <p class="style-2">Development</p>
+                          </span>
+                          <span class="per">
+                            <h5>45%</h5>
+                          </span>
+                         
+                        </span>
+                        <hr id="hr">       
+                      </div>
+                </div>
+              </div>
+              </div>
+            </div>             
+                    </span>
+                  </span>
+                </div>  
+              </div> <!--end of mobile -V-->
+
+              <div class="hide-on-small-only">
+              <div class="row">
+                <div class="col s12 m6 l6" id="bio-1">
+                  <section class="bio-1-child">
+                    <div class="typewritter">
+                      <h4>Biography/></h4>
+                    </div>
+                    <div class="card grey darken-4" id="card-1">
+                      <div class="card-content white-text">
+                        <span class="card-title"><p>About Me</p></span>
+                        <hr id="hr-1">
+                        <span class="card-article">
+                          <p>My name is wisdom John Ikoi, i reside in Port 
+                            Harcourt City Nigeria, i'm a design minded Web developer.   
+                            I studied Computer Science at Kensarowiwa Polytechnic.
+                            <br>
+                            <br> 
+                            I am Passionate about Technology, it is the only thing i have had
+                            interest in my whole life so i just find my self doing this anyway.
+                            I love to eat/consume API's and i enjoy coding UI to life.
+                          </p>
+                        </span> 
+                      </div>  
+                    </div>
+                  </section>
+                  
+                </div>
+                <div class="col s12 m6 l6" id="bio-2">
+                  <section class="bio-2-child">
+                        
+                    <div class="card grey darken-4" id="card-2"> 
+                      <div class="card-content white-text">
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">Front-End<br></p> 
+                            <p class="style-2">Development</p>
+                          </span>
+                          <span class="per">
+                            <h5>85%</h5>
+                          </span>
+                          <span class="icon">
+                            <section class="icon-1">
+                            <i class="fab fa-js" aria-hidden="true"></i><br>
+                            </section> 
+                            <section class="icon-2">
+                              <i class="fab fa-react" aria-hidden="true"></i>
+                            </section>  
+                          </span>
+                        </span>
+                        <hr id="hr"> 
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">UI/UX<br></p> 
+                            <p class="style-2">Graphics Design</p>
+                          </span>
+                          <span class="per">
+                            <h5>70%</h5>
+                          </span>
+                          <span class="icon">
+                            <section class="icon-3">
+                              <i class="fab fa-figma"></i>
+                            </section>  
+                          </span>
+                        </span>
+                        <hr id="hr">  
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">Technical<br></p> 
+                            <p class="style-2">Content Creation</p>
+                          </span>
+                          <span class="per">
+                            <h5>80%</h5>
+                          </span>
+                          <span class="icon">
+                            <section class="icon-4">
+                              <i class="fas fa-paste"></i><br>
+                            </section> 
+                          </span>
+                        </span>
+                        <hr id="hr">
+                        <!-------skills-->
+                        <span class="skill-1">
+                          <span class="title">
+                            <p class="style-1">Back-End<br></p> 
+                            <p class="style-2">Development</p>
+                          </span>
+                          <span class="per">
+                            <h5>45%</h5>
+                          </span>
+                          <span class="icon">
+                            <section class="icon-5">
+                              <i class="fab fa-php"></i><br>
+                            </section> 
+                            <section class="icon-6">
+                              <i class="fas fa-database"></i>
+                            </section>  
+                          </span>
+                        </span>
+                        <hr id="hr">       
+                      </div>
+                </div>
+              </div>
+              </div>
+            </div>                                     
+          </div> <!--- about clx--->
+        </div>
+         <!--work-->
+         <div id="work">
+          <div class="container">
+
+            <!--Mobile Version-->
+            <div class="hide-on-med-and-up">
+              <span class="Mobile-project">
+                <div class="box-class">
+                 <div class="p-box">
+                  project 1
+                 </div>
+                 <div class="p-box">
+                  project 2
+                  </div>
+                 <div class="p-box">
+                  project 3
+                 </div>
+                </div>
+                <div class="box-class-2">
+                  <div class="p-box">
+                   project 4
+                  </div>
+                  <div class="p-box">
+                   project 5
+                   </div>
+                  <div class="p-box">
+                   project 6
+                  </div>
+                 </div>
+                
+             </span>  
+            </div>
+             </div>
+
+            <div class="hide-on-small-only">
+              <div class="project">
+                <div class="row">
+                  <div class="col" id="PR-card">
+                    <a href="">G-Swap.com</a>
+                  </div>
+                  <div class="col" id="PR-card">
+                    <a href="">forecastry.com</a>
+                  </div>
+                  <div class="col" id="PR-card">
+                    <a href="">xmas-game</a>
+                  </div>
+                </div>
+              </div>
+            
+              <span class="project-1">
+                <div class="project-number">3</div>
+              </span>
+              <span class="project-2">
+                <div class="project-text">Projects Completed</div>
+              </span>
+            </div>
+            </div>
+          </div>
+        <!--work clx-->
+
+        <!--contact-->
+        <div id="contact">
+          <div class="container">
+            <div class="hide-on-med-and-up">
+              <div class="contact-me" style="margin-top: 300px;">
+                <div class="row">
+                  <div class="col" id="anime">
+                   <img src="profile.JPG" id="profile-image" style="margin-left: 30%; margin-top: 80%;">
+                  </div>
+                </div>
+              </div>
+              <span class="profile-name">
+                <div class="name"> <p>Wisdom John Ikoi</p></div>
+              </span>
+              <span class="my-connect">
+                <div class="connect-text">
+                  <div class="row">
+                    <div class="col" href="#">
+                      <a href="#"><i class="fas fa-envelope-square" aria-hidden="true"></i>wikoiplus@gmail.com</a>
+                    </div>
+                    <div class="col">
+                      <a href="tel:+234-906-814-0123"><i class="fas fa-phone" aria-hidden="true"></i>+234 906 814 0123</a>
+                    </div>
+                  </div>
+                  <div class="social-media">
+                    <span>
+                      <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-dribbble"></i> <i class="fab fa-github"></i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>  
+            </div>
+            <div class="hide-on-small-only">
+              <div class="contact-me">
+                <div class="row">
+                  <div class="col" id="anime">
+                   <img src="profile.JPG" id="profile-image">
+                  </div>
+                </div>
+              </div>
+              <span class="profile-name">
+                <div class="name"> Wisdom John Ikoi</div>
+              </span>
+              <span class="my-connect">
+                <div class="connect-text">
+                  <div class="row">
+                    <div class="col" href="#">
+                      <a href="#"><i class="fas fa-envelope-square" aria-hidden="true"></i>wikoiplus@gmail.com</a>
+                    </div>
+                    <div class="col">
+                      <a href="tel:+234-906-814-0123"><i class="fas fa-phone" aria-hidden="true"></i>+234 906 814 0123</a>
+                    </div>
+                  </div>
+                  <div class="social-media">
+                    <span>
+                      <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-dribbble"></i> <i class="fab fa-github"></i>
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>  
+            </div>
+          </div>
+        <!--contact-->
+        </div> <!--Sub-container-closing-->
+              
+               <script type="text/javascript" src="vanilla-tilt.js"></script>
+               <script type="text/javascript" src="script.js"></script>
+               <script>
+                 VanillaTilt.init(document.querySelector("#card-1"),{
+		              max: 25,
+	              	speed: 400
+	                });
+	
+	//It also supports NodeList
+	             VanillaTilt.init(document.querySelectorAll("#card-1"));
+               </script>
+               <script>
+                VanillaTilt.init(document.querySelector("#card-2"),{
+                max: 25,
+                speed: 400
+                });
+ 
+                //It also supports NodeList
+                VanillaTilt.init(document.querySelectorAll("#card-2"));
+              </script>
+                 
+</body>
+</html>
